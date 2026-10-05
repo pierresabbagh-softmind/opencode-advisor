@@ -1,0 +1,32 @@
+{
+  "name": "opencode-advisor",
+  "version": "0.1.0",
+  "description": "OpenCode v2 plugin: let the executor model consult a senior advisor model via ask_advisor, managed through the /advisor picker.",
+  "license": "MIT",
+  "author": "pierresabbagh-softmind",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tui": "./src/tui.ts",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "dependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  }
+}
