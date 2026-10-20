@@ -14,7 +14,7 @@ Let your fast executor model consult a senior advisor model when it matters — 
 ## Install
 
 ```sh
-opencode plugin add github:pierresabbagh-softmind/opencode-advisor
+opencode plugin add github:sabbaghpierre/opencode-advisor
 opencode service restart
 ```
 
